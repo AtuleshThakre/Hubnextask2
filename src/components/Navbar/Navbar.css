@@ -1,0 +1,31 @@
+.bg_blur {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(500px);
+}
+
+.navbar-brand,
+.nav-link {
+    color: black !important;
+}
+
+.navbar-toggler {
+    color: black !important;
+    background-color: transparent;
+    border: 1px solid black !important;
+}
+
+.responsive_design {
+    font-family: var(--navBarText);
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #000000a8 !important;
+    font-family: var(--navBarText);
+}
+
+@media (max-width: 426px) {
+    .responsive_design {
+        display: none;
+    }
+}
